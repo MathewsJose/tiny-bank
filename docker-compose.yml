@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  tiny-bank:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/var/www
+    container_name: tiny-bank-container

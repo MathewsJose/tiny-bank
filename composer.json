@@ -1,0 +1,12 @@
+{
+    "name": "tinybank/tiny-bank",
+    "autoload": {
+      "psr-4": {
+        "TinyBank\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^8.2"
+    }
+  }
+  
